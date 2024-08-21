@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #000;
+}
+
+.container {
+  width: 1100px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.hero__video{
+  position: absolute;
+  mask-image: url('/img/Kyrgyzstan.png');
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  z-index: 0;
+  max-width: 100%;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+.hero__content{
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 217px;
+  width: 584px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: #fff
+}
+
+.hero__title{
+  display: flex;
+  align-items: center;
+}
+
+.hero__text{
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; 
+  font-size: 64px;
+}
+
+.hero__img{
+  width: 63px;
+  height: 60px;
+}
+
+.hero__description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; 
+  font-size: 20px;
+}
+
+.furthers__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.furthers__title{
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; 
+  font-size: 64px;
+}
+
+.furthers__description{
+  margin-bottom: 10px;
+  color: gray;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; 
+  width: 399px;
+  font-size: 20px;
+}
+
+.furthers_img{
+  width: 900px;
+  height: 700px;
+}
+
+.furthers__titles{
+  margin-top: 50px;
+}
+
+.present {
+  display: grid;
+  grid-template-columns: auto 20%; /* Сетка из трех колонок */
+  align-items: center; /* Выравнивание по вертикали */
+}
+
+.left {
+  grid-column: 1; /* Левый элемент в первой колонке */
+}
+
+.right {
+  grid-column: 3; /* Правый элемент в третьей колонке */
+}
+
+.game {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.features {
+  background: #141414;
+}
+
+.platform-image {
+  position: relative;
+  left: -25px;
+}
+
+.terminal {
+  margin-bottom: 50px;
+}
+
+.geo {
+  display: grid;
+  grid-template-columns: auto 37%; /* Сетка из трех колонок */
+  align-items: center; /* Выравнивание по вертикали */
+  margin-bottom: 50px;
+}
+
+.left-geo {
+  grid-column: 1;
+  margin-left: 100%; 
+  /* Левый элемент в первой колонке */
+}
+
+.right-geo {
+  grid-column: 3; /* Правый элемент в третьей колонке */
+}
+
+.footer {
+  padding-top: 85px;
+  padding-bottom: 86px;
+  background-color: black;
+}
+
+.footer-inner { 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px
+}
+
+.footer h3 {
+  margin: 0 0 33px;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+}
+
+
+.footer p {
+  margin: 0 0 25px;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgb(163, 163, 163)
+}
+
+.footer-services ul,
+.footer-contacts ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-services ul a,
+.footer-contacts ul a {
+  font-size: 12px;
+  line-height: 160%;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-contacts li {
+  margin-bottom: 5px;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-socials li + li {
+  margin-left: 15 px;
+  margin-bottom: 5px;
+}
+
+.footer-support img {
+  width: 200px;
+  height: auto;
+}
+
+.footer-support-logos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.footer-copy p {
+  padding-top: 86px;
+}
+
